@@ -2,14 +2,16 @@
 
 The final form, the true evolution of the chromic theme saga! The old trilogy of chromic themes are deprecated, as their appearances can be replicated using Ultrachromic.
 
-This is a custom theme for Jellyfin mediaserver created using CSS overrides. Note that I maintain this theme to be compatible with whatever version of Jellyfin I am currently using. Which is usually the latest stable release. You can therefore assume that using the theme on older versions may not work, but also that if a new release breaks something, that I will fix it. If you encounter unthemed elements or something broken, open an issue.
+This is a custom theme for Jellyfin mediaserver created using CSS overrides. Note that the project is quite old at this point, and while I "maintain" the theme to be compatible with whatever version of Jellyfin I am currently using, that may not include every possible combination. If you encounter unthemed elements or something broken, open an issue, or even better, submit a PR.
+
+I'll happily merge PRs that fix things.
 
 ![Untitled](https://user-images.githubusercontent.com/4365015/127774204-03957527-7178-4ea2-8674-d83fe6a97d1c.png)
 
 <br />
 
 ## Features
-- Themes **EVERYTHING**
+- Used to theme **EVERYTHING**
 - Three types of styles to choose from
 - Extensive additional options
 - Customizable accent color
@@ -17,7 +19,6 @@ This is a custom theme for Jellyfin mediaserver created using CSS overrides. Not
 - Squared or rounded UI
 - Options for progress bars, title pages, backdrops, logos...
 - Works well on mobile, more compact and aligned UI
-- Various small tweaks and fixes to the stock UI
 
 <br />
 
@@ -285,9 +286,6 @@ There are some manual options you can define if you want, after the import lines
 ```css
 /*Style backdrop*/
 .backdropImage {filter: blur(18px) saturate(120%) contrast(120%) brightness(40%);}
-
-/*Login background*/
-#loginPage {background: url(https://raw.githubusercontent.com/CTalvio/Ultrachromic/main/assets/background.png) !important;}
 
 /*Accent and roundingd*/
 :root {--accent: 98, 121, 205;}
