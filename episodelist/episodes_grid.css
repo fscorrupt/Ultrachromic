@@ -1,6 +1,6 @@
 /*Size episode preview images in a more compact way*/
 
-.childrenItemsContainer.itemsContainer.padded-right.vertical-list {
+.itemsContainer.padded-right.vertical-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -12,19 +12,19 @@
 }
 
 @media all and (max-width: 2000px) {
-  .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
+  .itemsContainer.padded-right.vertical-list {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 @media all and (max-width: 1000px) {
-  .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
+  .itemsContainer.padded-right.vertical-list {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 .layout-mobile
-  .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
+  .itemsContainer.padded-right.vertical-list {
   grid-template-columns: 1fr;
 }
 
